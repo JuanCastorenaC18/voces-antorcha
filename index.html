@@ -1,0 +1,39 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>Voces · Antorcha Nacional</title><link rel="stylesheet" href="./styles.css"></head><body>
+  <div id="gate" class="gate">
+    <section class="gate-brand">
+      <span class="antorcha-logo" role="img" aria-label="Movimiento Antorchista Nacional"><img src="./antorcha-referencia.png" alt="" /></span>
+      <div class="brand-kicker">COMISIÓN CULTURAL NACIONAL<br>DEL MOVIMIENTO ANTORCHISTA</div>
+      <div class="event-edition">II JORNADA NACIONAL</div><h1><span>Concurso de</span><em>Voces</em></h1><div class="brand-motto">“Rescatando la música popular mexicana”</div>
+      <p>Un espacio para nuestra cultura, nuestro talento y nuestra música.</p>
+      <div class="gate-foot"><span class="live-dot"></span> Acceso web · Windows, Mac y celular</div>
+    </section>
+    <section class="gate-panel">
+      <div class="gate-panel-top"><span class="eyebrow" id="gate-eyebrow">ACCESO DEL EQUIPO</span><span class="pill pill-green">EN LÍNEA</span></div>
+      <h2 id="gate-title">Bienvenido</h2>
+      <p id="gate-copy" class="muted">Inicia sesión para abrir el panel del concurso.</p>
+      <form id="gate-form" class="form-stack"></form>
+      <p class="gate-note">Los registros se guardan en línea. Necesitas conexión a Internet. Acceso autorizado por rol.</p>
+    </section>
+  </div>
+
+  <div id="workspace" class="workspace hidden">
+    <aside class="sidebar">
+      <div class="side-brand">
+        <span class="antorcha-logo" role="img" aria-label="Movimiento Antorchista Nacional"><img src="./antorcha-referencia.png" alt="" /></span>
+        <div><strong>VOCES</strong><small>ANTORCHA NACIONAL</small></div>
+      </div>
+      <div class="side-event"><span class="eyebrow">EVENTO</span><strong>II Jornada<br>Nacional de Voces</strong><small>24 OCT · 10:00 H</small></div>
+      <nav id="navigation" class="navigation"></nav>
+      <div class="side-bottom">
+        <div class="connection-card"><span class="live-dot" id="connection-dot"></span><div><strong id="connection-label">Conectando</strong><small>Actualiza cada 15 segundos</small></div></div>
+        <button class="user-card" id="logout-button" type="button"><span class="avatar" id="user-avatar">A</span><span class="user-meta"><strong id="user-name">Administrador</strong><small id="user-role">Admin</small></span><span class="logout-arrow">↗</span></button>
+      </div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar"><div><div class="eyebrow" id="page-kicker">PANEL DE CONTROL</div><h1 id="page-title">Resumen</h1></div><div class="topbar-right"><span class="pill pill-soft" id="event-date">Sábado · 24 de octubre</span><div class="top-avatar" id="top-avatar">A</div></div></header>
+      <div id="notice" class="notice hidden"></div>
+      <div id="page-content" class="page-content"></div>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="./auth.js"></script><script src="./app.js"></script></body></html>
